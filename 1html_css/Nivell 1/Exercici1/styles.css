@@ -1,0 +1,110 @@
+body{
+    max-width:1200px;
+}
+.seccion1{
+    background-color: black;
+    padding: 20px;
+}
+.rectangulo1_1{
+    display: flex;
+    background-color: gray;
+    padding: 10px;
+}
+.linea1_1{
+    display: flex;
+    background-color: orange;
+    padding: 10px;
+    margin: 10px;
+    width: 25%;
+}
+.linea1_2{
+    display: flex;
+    background-color: orange;
+    padding: 10px;
+    margin: 10px;
+    width:100%;
+}
+.rectangulo1_2{
+    display: flex;
+    background-color: orangered;
+    padding: 10px;
+    margin-top: 10px;
+}
+.linea1_3{
+    display: flex;
+    background-color: yellow;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+}
+.seccion2{
+    background-color: black;
+    padding: 20px;
+    padding-bottom: 25px;
+    margin-top: 20px;
+    display: flex;
+}
+.rectangulo2_1{
+    background-color: cadetblue;
+    padding: 10px;
+    width: 70%;
+}
+.linea2_1{
+    display: flex;
+    justify-content: center;
+    display: inline-block;
+    background-color: blue;
+    padding: 10px;
+    margin: 10px;
+    width: 44%;
+}
+.linea2_2{
+    display: flex;
+    justify-content: center;
+    display: inline-block;
+    background-color: blue;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 1px;
+    width: 44%;
+}
+.linea2_3{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 28, 152);
+    padding: 10px;
+    margin: 10px;
+    margin-top: 1px;
+    width: 94.3%;
+}
+.rectangulo2_2{
+    background-color: rgb(255, 37, 142);
+    padding: 10px;
+    width: 35%;
+    margin-left: 10px;
+}
+.linea4_1{
+    display: flex;
+    justify-content: center;
+    background-color: yellowgreen;
+    padding: 10px;
+    margin: 10px;
+}
+.linea4_2{
+    background-color: yellowgreen;
+    padding: 10px;
+    margin: 10px;
+}
+.seccion3{
+    background-color: black;
+    padding: 15px;
+    margin-top: 20px;
+}
+.linea3_1{
+    background-color:yellow ;
+    padding: 10px;
+    width: 97.5%;
+    margin-left: 5px;
+}
+
+   
