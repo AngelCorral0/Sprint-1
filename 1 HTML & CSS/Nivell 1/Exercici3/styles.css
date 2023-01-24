@@ -7,32 +7,32 @@ body{
 }
 .rectangulo1_1{
     display: flex;
-    background-color: rgba(45,64,89,255);
+    background-color: gray;
     padding: 10px;
 }
 .linea1_1{
     display: flex;
-    background-color: rgba(234,84,85,255);
+    background-color: orange;
     padding: 10px;
     margin: 10px;
     width: 25%;
 }
 .linea1_2{
     display: flex;
-    background-color: rgba(234,84,85,255);
+    background-color: orange;
     padding: 10px;
     margin: 10px;
     width:100%;
 }
 .rectangulo1_2{
     display: flex;
-    background-color: rgba(240,123,63,255);
+    background-color: orangered;
     padding: 10px;
     margin-top: 10px;
 }
 .linea1_3{
     display: flex;
-    background-color: rgba(254,212,96,255);
+    background-color: yellow;
     padding: 10px;
     margin: 10px;
     width: 100%;
@@ -45,7 +45,7 @@ body{
     display: flex;
 }
 .rectangulo2_1{
-    background-color: rgba(78,78,106,255);
+    background-color: cadetblue;
     padding: 10px;
     width: 70%;
 }
@@ -53,7 +53,7 @@ body{
     display: flex;
     justify-content: center;
     display: inline-block;
-    background-color: rgba(31,108,176,255);
+    background-color: blue;
     padding: 10px;
     margin: 10px;
     width: 44%;
@@ -62,7 +62,7 @@ body{
     display: flex;
     justify-content: center;
     display: inline-block;
-    background-color: rgba(31,108,176,255);
+    background-color: blue;
     padding: 10px;
     margin: 10px;
     margin-top: 1px;
@@ -71,14 +71,14 @@ body{
 .linea2_3{
     display: flex;
     justify-content: center;
-    background-color: rgba(112,163,196,255);
+    background-color: rgb(0, 28, 152);
     padding: 10px;
     margin: 10px;
     margin-top: 1px;
-    width: 94.4%;
+    width: 94.1%;
 }
 .rectangulo2_2{
-    background-color: rgba(247,63,82,255);;
+    background-color: rgb(255, 37, 142);
     padding: 10px;
     width: 35%;
     margin-left: 10px;
@@ -86,12 +86,12 @@ body{
 .linea4_1{
     display: flex;
     justify-content: center;
-    background-color: rgba(254,234,133,255);
+    background-color: yellowgreen;
     padding: 10px;
     margin: 10px;
 }
 .linea4_2{
-    background-color: rgba(254,234,133,255);
+    background-color: yellowgreen;
     padding: 10px;
     margin: 10px;
 }
@@ -101,19 +101,19 @@ body{
     margin-top: 20px;
 }
 .linea3_1{
-    background-color:rgba(230,175,46,255) ;
+    background-color:yellow ;
     padding: 10px;
-    width: 97.7%;
+    width: 97.5%;
     margin-left: 5px;
 }
-@media (min-width: 768px){
+@media (max-width: 768px){
     .seccion2{
         display: block;    
         background-color: rgba(254,255,3,255);
     }
     .rectangulo2_1{
         margin: 10px 0px;
-        width: 97%;
+        width: 97.3%;
     }
     .linea2_1{
         width: 43.9%;
@@ -122,18 +122,18 @@ body{
         width: 43.9%;
     }
     .linea2_3{
-        width: 94%;
+        width: 94.1%;
     }
     .rectangulo2_2{
         margin: 20px 0px;
         margin-bottom: 0px;
-        width: 97%;
+        width: 97.3%;
     }
     .linea3_1{
-        width: 95.5%;
+        width: 95.9%;
     }
 }
-@media (min-width:320px){
+@media (max-width:320px){
     .rectangulo1_1{
         display: block;
         background-color: rgba(45,64,89,255);
