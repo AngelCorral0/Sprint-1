@@ -10,18 +10,16 @@ Si la nota està entre 33% to 44%, el grau hauria de ser Tercera Divisió.
 
  
 function grauNota (){
-    $nota = 60;
-    if($nota >=60 && $nota <= 100){
+    $nota = 50;
+    if($nota >=60 && $nota <=100){
         echo  "La nota de l'alumnat és d'un " . $nota . "%" . " i té un grau de Primera Divisió.";
-     }else if($nota >= 45 && $nota <= 59){
+     }else if($nota >= 45){
         echo "La nota de l'alumnat és d'un " . $nota . "%" . " i té un grau de Segona Divisió.";
-     }else if($nota >=33 && $nota <=44){
+     }else if($nota >=33){
         echo "La nota de l'alumnat és d'un " . $nota . "%" . " i té un grau de Tercera Divisió.";
-     }else if($nota >= 0 && $nota <33){
+     }else if($nota >= 0){
         echo "La nota de l'alumnat és d'un " . $nota . "%" . " i per tant ha reprovat.";
-     }else if($nota < 0 || $nota > 100){
-        echo "La nota ha de ser de 0 a 100.";
-     }
+      }
 }
 echo grauNota();
 
