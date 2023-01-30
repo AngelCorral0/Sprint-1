@@ -7,10 +7,12 @@
     <title>Exercici 3</title>
 </head>
 <body>
- <h1></h1>
-    <?php
-        define("nombre", "<h1>Angel</h1>");
-        echo  nombre;
-    ?>
+    <h1>
+        <?php
+            define("nombre", "Angel");
+            echo nombre;
+        ?>
+    </h1>
+  
 </body>
 </html>

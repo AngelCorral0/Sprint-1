@@ -10,10 +10,14 @@
    <?php
         $array1 = [1, 2, 3, 4, 5,];
         $array2 = [6, 7, 8];
-        $array2 [3] = 9;
+        $array2 [] = 9;
         $resultado = array_merge($array1, $array2);
         foreach ($resultado as $numeros){
         echo $numeros;}
+        echo "<br>";
+        var_dump($resultado);
+        echo "<br>";
+        print_r($resultado);
    ?> 
     
 </body>
