@@ -71,11 +71,11 @@ body{
 .linea2_3{
     display: flex;
     justify-content: center;
-    background-color: rgba(112,163,196,255);
+    background-color: rgb(130, 152, 253);
     padding: 10px;
     margin: 10px;
     margin-top: 1px;
-    width: 90%;
+    width: 94.1%;
 }
 .rectangulo2_2{
     background-color: rgba(247,63,82,255);;
