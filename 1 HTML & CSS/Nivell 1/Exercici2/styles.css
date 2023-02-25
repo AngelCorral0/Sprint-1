@@ -106,7 +106,7 @@ body{
     width: 97.7%;
     margin-left: 5px;
 }
-@media (max-width: 768px){
+@media(max-width: 760px){
     .seccion2{
         display: block;    
         background-color: rgba(254,255,3,255);
@@ -116,13 +116,13 @@ body{
         width: 97.3%;
     }
     .linea2_1{
-        width: 43.9%;
+        width: 43%;
     }
     .linea2_2{
-        width: 43.9%;
+        width: 43%;
     }
     .linea2_3{
-        width: 94.1%;
+        width: 92.6%;
     }
     .rectangulo2_2{
         margin: 20px 0px;
