@@ -2,10 +2,11 @@
 
 class Rectangle extends Shape
 {
-    public function area()
+   
+    Public function areaRectangle()
     {
-        $area = $this->alt * $this->ample;
-        echo "L'area del rectangle és: " . $area;
+        $areaTotal =  parent ::area();
+        echo "L'area del rectangle és: " . $areaTotal;
     }
 
 }

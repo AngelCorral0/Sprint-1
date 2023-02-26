@@ -13,7 +13,7 @@ class Employee
     public function print()
     {
 
-        if ($this->sou >= 6000) {
+        if ($this->sou > 6000) {
             echo $this->nom . " ha cobrat més de 6.000€ " . "(" . $this->sou . "€)" .  ", per tant ha de pagar impostos.";
         } else {
             echo $this->nom . " ha cobrat menys de 6.000€ " . "(" . $this->sou . "€)" .  ", per tant no ha de pagar impostos.";

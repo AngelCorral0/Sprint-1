@@ -1,6 +1,6 @@
 <?php
 
-class Shape
+abstract class  Shape
 {
     public $ample;
     public $alt;
@@ -9,6 +9,11 @@ class Shape
     {
         $this->ample = $ample;
         $this->alt = $alt;
+    }
+    Public function area()
+    {
+        $area = ($this->ample * $this->alt);
+        return   $area;
     }
 }
 

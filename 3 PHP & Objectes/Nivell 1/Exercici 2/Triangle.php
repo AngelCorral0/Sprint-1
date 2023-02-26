@@ -2,10 +2,10 @@
 
 class triangle extends Shape
 {
-    public function area()
+    Public function areaTriang()
     {
-        $area = $this->alt * $this->ample;
-        echo "L'area del triangle és: " . $area /2;
+        $areaTotal =  parent ::area() /2;
+        echo "L'area del triangle és: " . $areaTotal;
     }
 
 }
